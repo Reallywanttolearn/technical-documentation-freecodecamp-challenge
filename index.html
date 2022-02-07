@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Technical Documentation</title>
+</head>
+
+<body class="container">
+    <div class="flex">
+        <nav id="navbar" class="flex flex-col w-2/12 h-screen sticky top-0 space-y-4 border border-black divide-y divide-black ">
+            <header class="text-3xl px-5 pt-3 ">JS Documentation</header>
+            <a class="px-5 pt-3 nav-link" class="nav-link" href="#introduction">Introduction</a>
+            <a class="px-5 pt-3 nav-link" class="nav-link" href="#WHAT_YOU_SHOULD_ALREADY_KNOW">What you should already know</a>
+            <a class="px-5 pt-3 nav-link" class="nav-link" href="#JAVASCRIPT_AND_JAVA">JavaScript and Java</a>
+            <a class="px-5 pt-3 nav-link" class="nav-link" href="#HELLO_WORLD">Hello world</a>
+            <a class="px-5 pt-3 nav-link" class="nav-link" href="#variables">Variables</a>
+        </nav>
+        <main id="main-doc" class="w-10/12 m-10">
+            <section class="main-section space-y-5" id="introduction">
+                <header class="text-3xl text-semibold">Introduction</header>
+                <p>
+                    JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control
+                    over them. JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of
+                    purposes by supplementing it with additional objects; for example:
+                    <code></code>
+                </p>
+                <p>
+                    <ul class="mx-10 list-disc">
+                        <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond
+                            to user events such as mouse clicks, form input, and page navigation.</li>
+                        <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information
+                            from one invocation to another of the application, or perform file manipulations on a server.</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="main-section space-y-5" id="WHAT_YOU_SHOULD_ALREADY_KNOW">
+                <header class="text-3xl text-semibold">What you should already know</header>
+                <p>
+                    This guide assumes you have the following basic background:
+                    <code></code>
+                </p>
+                <p>
+                    <ul class="mx-10 list-disc">
+                        <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
+                        <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+                        <li>Some programming experience. If you are new to programming, try one of the tutorials linked on the main page about JavaScript.</li>
+                    </ul>
+                </p>
+            </section>
+            <section class="main-section space-y-5" id="JAVASCRIPT_AND_JAVA">
+                <header class="text-3xl text-semibold">JavaScript and Java</header>
+                <p>
+                    JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions
+                    and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+                    <code></code>
+                </p>
+                <p>
+                    In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead
+                    of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements.
+                    Functions can be properties of objects, executing as loosely typed methods.
+                </p>
+                <p>
+                    JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces.
+                    Variables, parameters, and function return types are not explicitly typed.
+                </p>
+            </section>
+            <section class="main-section space-y-5" id="HELLO_WORLD">
+                <header class="text-3xl text-semibold">Hello world</header>
+                <p>
+                    To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+                </p>
+                <code>function greetMe(yourName) { alert("Hello " + yourName); }
+                    greetMe("World");</code>
+                <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+            </section>
+            <section class="main-section" id="variables">
+                <header>Variables</header>
+                <p>
+                    <code></code>
+                </p>
+                <p></p>
+            </section>
+
+        </main>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
